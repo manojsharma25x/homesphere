@@ -31,6 +31,8 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
       />
+<!-- animation  -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>HomeSphere | A Real Estate Company</title>
 
@@ -54,7 +56,7 @@
               <a class="nav-link active" aria-current="page" href="#">buy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">sell</a>
+              <a class="nav-link" href="sell-your-home.html">sell</a>
             </li>
             <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,7 +70,7 @@
                 </ul>
               </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">rent</a>
+              <a class="nav-link" href="available-for-properties-rent.html" tabindex="-1" aria-disabled="true">rent</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">mortgage</a>
@@ -82,9 +84,6 @@
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">blog</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">contact</a>
             </li>
           </ul>
@@ -93,10 +92,10 @@
               <div class="btn btn-border btn-outline-secondary">manage rentals</div>
               <div class="btn btn-border">advertise</div>
             </div> -->
-          <div class="d-flex">
-            <button class="btn">log in</button>
-            <button class="btn btn-theme">sign up</button>
-          </div>
+            <div class="d-flex">
+              <a href="login.html"><button class="btn">log in</button></a>
+              <a href="register.html"><button class="btn btn-theme">sign up</button></a>
+            </div>
         </div>
       </div>
     </nav>
@@ -106,16 +105,16 @@
       justify-content-center">
       <div class="hero-overlay"></div>
       <div class="text-center central-content">
-        <h1>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
           The Simplest <br>
           Way to Find Property</h1>
-        <p>Let’s find a home that’s perfect for you</p>
+        <p data-aos="zoom-in" data-aos-duration="1500">Let’s find a home that’s perfect for you</p>
         <ul class="text-uppercase">
-          <li class="active">buy</li>
-          <li>rent</li>
-          <li>just sold</li>
-          <li>home value</li>
-        </ul>
+          <li><a href="#" class="active">buy</a></li>
+          <li><a href="available-for-properties-rent.html">rent</a></li>
+          <li><a href="#">just sold</a></li>
+          <li><a href="#">home value</a></li>
+      </ul>
         <div class="searchBar mt-4">
           <input id="searchQueryInput" type="text" name="searchQueryInput"
             placeholder="Address, City, Zip or Neighborhood" value="" />
@@ -139,7 +138,8 @@
     <section class="container feature-section">
       <div class="row">
         <div class="col-12 col-md-4">
-          <div class="card mb-3" style="max-width: 540px;">
+          <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up"
+          data-aos-duration="600">
             <div class="row g-0">
               <div class="col-md-3 text-center">
                 <i class="far fa-building" style="font-size: 3rem;padding-top:
@@ -158,7 +158,8 @@
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="card mb-3" style="max-width: 540px;">
+          <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up"
+          data-aos-duration="800">
             <div class="row g-0">
               <div class="col-md-3 text-center">
 
@@ -177,7 +178,8 @@
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="card mb-3" style="max-width: 540px;">
+          <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up"
+          data-aos-duration="1000">
             <div class="row g-0">
               <div class="col-md-3 text-center">
                 <i class="far fa-location-arrow" style="font-size:
@@ -875,7 +877,7 @@
     <section class="counting-area container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
             <h2 class="text-capitalize">the hundred of completed work still
               counting </h2>
             <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur
@@ -886,7 +888,7 @@
               eligendi ducimus cumque laudantium, sed ex voluptatum saepe eius
               enim, illo quas minima tenetur?</p>
           </div>
-          <div class="col-12 col-md-6 counting-area-right">
+          <div class="col-12 col-md-6 counting-area-right" data-aos="fade-left" data-aos-duration="1000">
             <div class="counter-container">
 
               <div class="row shadow text-center">
@@ -995,6 +997,94 @@
 
     </section>
  <!-- /happy-customer -->
+
+ <section id="team">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h2>Meet Our Agents</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <div class="member-img">
+                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" class="img-fluid" alt="">
+                </div>
+                  <div class="member-info">
+                      <h4>Emma White</h4>
+                      <span>Agents</span>
+                      <div class="social-links">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                          <!-- <a href="#"><i class="fab fa-pinterest-p"></i></a> -->
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <div class="member-img">
+                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="img-fluid" alt="">
+                </div>
+                  <div class="member-info">
+                      <h4>Bobby Robins</h4>
+                      <span>Agents</span>
+                      <div class="social-links">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                          <!-- <a href="#"><i class="fab fa-pinterest-p"></i></a> -->
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <div class="member-img">
+                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" class="img-fluid" alt="">
+                </div>
+                  <div class="member-info">
+                      <h4>Gena lee</h4>
+                      <span>Agents</span>
+                      <div class="social-links">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                          <!-- <a href="#"><i class="fab fa-pinterest-p"></i></a> -->
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <div class="member-img">
+                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" class="img-fluid" alt="">
+                </div>
+                  <div class="member-info">
+                      <h4>Noel Flantier</h4>
+                      <span>Agents</span>
+                      <div class="social-links">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                          <!-- <a href="#"><i class="fab fa-pinterest-p"></i></a> -->
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
     <!-- Footer -->
     <footer
@@ -1135,6 +1225,7 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

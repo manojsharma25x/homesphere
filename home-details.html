@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- animation  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Sell your Home | HomeSphere | A Real Estate Company</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="color: #d92228"><i class="fas fa-building"></i> HomeSphere</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">buy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="sell-your-home.html">sell</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="available-for-properties-rent.html" tabindex="-1" aria-disabled="true">rent</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">mortgage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">news
+              &amp; insights</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">contact</a>
+          </li>
+        </ul>
+
+        <!-- <div class="d-flex">
+              <div class="btn btn-border btn-outline-secondary">manage rentals</div>
+              <div class="btn btn-border">advertise</div>
+            </div> -->
+            <div class="d-flex">
+              <a href="login.html"><button class="btn">log in</button></a>
+              <a href="register.html"><button class="btn btn-theme">sign up</button></a>
+            </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /navbar -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 mb-3">
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Swiper -->
+            <div class="swiper home-details-Swiper mt-0" id="home-details">
+       
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/card1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/card2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/card3.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/card1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            
+            <!-- /Swiper -->
+            <!-- <h2>Lorem, ipsum dolor.</h2>
+            <div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur animi voluptatum quod voluptate culpa ut provident, impedit quia aspernatur, eaque quam architecto, repellat nostrum ducimus nesciunt debitis pariatur fugiat veniam delectus corporis aperiam. Iure, iste vel maiores ad, nihil aperiam deserunt quibusdam quas, dolorem dolore sint ipsa explicabo? Similique assumenda aut voluptatum, ea facere quas. Repellendus architecto mollitia asperiores optio ea. Unde reprehenderit aperiam sequi rerum, cumque dicta, consequuntur quo libero voluptatum commodi, est exercitationem adipisci accusantium corporis perferendis ipsum officia aliquid. Porro sequi, quae in perspiciatis, distinctio beatae incidunt nihil blanditiis deserunt quis quos quaerat ducimus est nemo commodi amet dicta fuga explicabo a nesciunt itaque, illum quidem. Cumque debitis sapiente mollitia explicabo, quibusdam sit veniam at suscipit illo dicta minus totam amet officia assumenda culpa minima. Cum harum quidem voluptatibus enim, obcaecati voluptatum? Eum aspernatur porro obcaecati! Deleniti rem aspernatur maxime! In, qui harum nulla est tempore explicabo adipisci, corrupti, ipsum asperiores sit dolores possimus fugit nihil ea dolorem perferendis delectus. Hic autem adipisci corporis rerum neque, dicta dolores saepe corrupti quos enim illo eligendi odit! Commodi quo, quidem dolore debitis eveniet nulla minima necessitatibus quam odit ab dicta minus ipsum assumenda delectus tempora obcaecati enim iusto quia nam laudantium blanditiis asperiores. Soluta recusandae aperiam ea repellat mollitia deserunt, consequatur repudiandae doloremque. Dolore ipsa beatae omnis est ducimus neque nesciunt unde quisquam asperiores consequuntur, at totam minus assumenda aut animi ipsum rem et, laudantium eos sequi aliquam nisi deserunt. Nisi, commodi? Consectetur ipsa sapiente ut repudiandae debitis iure error doloremque, dolores qui, modi quaerat eligendi perferendis laboriosam hic magni, dolore autem consequatur est omnis obcaecati vero numquam quibusdam non repellat? Odit repellendus sint neque culpa possimus unde quae ab quod incidunt quasi sequi similique autem necessitatibus, modi enim, mollitia recusandae voluptatum. Reprehenderit dolorum harum tempore culpa, quos quaerat fugiat quidem maxime eveniet facere saepe error impedit quia cumque odit rem, libero neque! Velit suscipit iusto deserunt. Officia totam possimus obcaecati odio minus, at quam voluptatum reiciendis nam, facere illum rerum soluta quisquam dolorem laudantium fuga incidunt est itaque optio consequatur exercitationem maiores numquam consectetur. Repudiandae neque qui voluptas voluptatum alias magni, sequi illo quam rem assumenda ducimus, reprehenderit fuga dicta, ratione praesentium dolore doloribus ipsa quas voluptatem explicabo consequuntur doloremque unde adipisci. Placeat, tenetur. Nostrum obcaecati doloremque, harum eligendi consequatur ipsum voluptates animi, veniam necessitatibus enim perferendis maxime nam, natus minus incidunt ullam placeat nulla asperiores facilis quibusdam.
+            </div> -->
+          </div>
+          <div class="col-12">
+            <div class="row text-capitalize">
+              <div class="col-12 mt-3">
+                <h3>home title</h3>
+                <h3>&#8377;345678</h3>
+              </div>
+              <div class="col-12 d-flex justify-content-start">
+                <div class="me-3"><strong>3</strong> Bed</div>
+                <div class="me-3"><strong>2</strong> Bath</div>
+                <div class="me-3"><strong>2000</strong> sqft</div>
+                <div class="me-3"><strong>0.5 </strong> acre lot</div>
+              </div>
+              <div class="col-12 mt-1">
+                <p>4339 Deltona Blvd, Springhill, FL 34606</p>
+              </div>
+              <div class="col- d-flex flex-wrap justify-content-between">
+                <div class="d-flex align-items-center">
+                  <div class="detail-feature-icon">
+                    <i class="fad fa-home-heart"></i>
+                  </div>
+                  <div>
+                    <p class="m-0 detail-feature-title">Single Family</p>
+                    <p class="m-0 detail-feature-type text-secondary">
+                      property type
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="detail-feature-icon">
+                    <i class="fad fa-usd-square"></i>
+                  </div>
+                  <div>
+                    <p class="m-0 detail-feature-title">&#8377; 4567</p>
+                    <p class="m-0 detail-feature-type text-secondary">
+                      price per sqft
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="detail-feature-icon">
+                    <i class="fad fa-parking-circle"></i>
+                  </div>
+                  <div>
+                    <p class="m-0 detail-feature-title">2 cars</p>
+                    <p class="m-0 detail-feature-type text-secondary">
+                      garrage
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="detail-feature-icon">
+                    <i class="fad fa-hammer"></i>
+                  </div>
+                  <div>
+                    <p class="m-0 detail-feature-title">2022</p>
+                    <p class="m-0 detail-feature-type text-secondary">
+                      year built
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3">
+        <form>
+          <h5 class="text-secondary">More About This Property</h5>
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" placeholder="Name" />
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" placeholder="Email" />
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"
+              placeholder="I'm intrested to know more about this property"></textarea>
+          </div>
+
+          <!-- Submit button -->
+          <div class="form-outline mb-4">
+            <button type="submit" class="btn btn-theme col-12 mb-4">
+              Email Agent
+            </button>
+          </div>
+        </form>
+      </div>
+
+
+
+      <!-- <div class="row">
+        <div class="col-md-8">
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit, ullam iure eaque eveniet nemo deleniti
+          itaque neque eum consequuntur sint! Unde esse, rem quae vero ipsa obcaecati soluta quidem omnis. Aspernatur
+          itaque et aliquid excepturi vel nam sit, ipsum, dolorum nulla iure error rem, quas voluptatibus provident nisi
+          dicta iste nesciunt. Minima possimus in libero, harum sequi eum dolores. Neque voluptatem autem, accusantium
+          quisquam ratione corporis mollitia alias magni voluptate sed quod et assumenda perspiciatis unde temporibus,
+          porro repudiandae ab minima. Iure laborum a eius alias nisi, aliquam sunt.
+        </div>
+        <div class="col-md-4"></div>
+      </div> -->
+
+    </div>
+
+  </section>
+
+  <!-- happy-customer -->
+  <section class="happy-customer container-fluid">
+    <div class="section-heading mb-2">
+      <h2 class="text-capitalize text-center">customer testimonials</h2>
+      <hr style="width: 20%;
+          border-bottom: 2px solid #d92228;
+          margin: 1rem auto;" />
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <!-- Swiper -->
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial flex flex-column font-roboto">
+                <div class="quote-icon-container flex">
+                  <div class="quote-icon">
+                    <!-- <i class="fab fa-twitter"></i> -->
+                    <i class="fas fa-quote-left"></i>
+                  </div>
+                </div>
+                <div class="testimonial-text text-dark2">
+                  <p>
+                    My experience with Saurabh has been amazing, all these
+                    years I was struggling in Gym's, changing my trainers to
+                    get my desired body. From squats to weight training, tried
+                    everything but then someone recomme...my desired body.
+                    From squats to weight training, tried everything but then
+                    someone recomme...sired body. From squats to weight
+                    training, tried everything but then someone recomme...
+                  </p>
+                  <hr />
+                  <div class="pic-name d-flex font-roboto">
+                    <img src="./assets/img/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="" />
+                    <span class="name"> parinita singha </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial flex flex-column font-roboto">
+                <div class="quote-icon-container flex">
+                  <div class="quote-icon">
+                    <!-- <i class="fab fa-twitter"></i> -->
+                    <i class="fas fa-quote-left"></i>
+                  </div>
+                </div>
+                <div class="testimonial-text text-dark2">
+                  <p>
+                    My experience with Saurabh has been amazing, all these
+                    years I was struggling in Gym's, changing my trainers to
+                    get my desired body. From squats to weight training, tried
+                    everything but then someone recomme...my desired body.
+                    From squats to weight training, tried everything but then
+                    someone recomme...sired body. From squats to weight
+                    training, tried everything but then someone recomme...
+                  </p>
+                  <hr />
+                  <div class="pic-name d-flex font-roboto">
+                    <img src="./assets/img/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="" />
+                    <span class="name"> parinita singha </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        <!-- /swiper mySwiper -->
+      </div>
+      <div class="col-12 col-md-6">
+        <img src="assets/img/tt2.jpg" width="100%" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- /happy-customer -->
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+    <!-- Section: Social media -->
+    <div class="container-fluid py-3" style="background-color: #d92228">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="d-flex footer-left">
+            <span>Get latest updates on social networks</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="d-flex footer-right">
+            <a href="" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+            <a href="" class="text-white me-4"><i class="fab fa-google"></i></a>
+            <a href="" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+            <a href="" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container-fluid text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">HomeSphere</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #d92228; height: 2px" />
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">community</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #d92228; height: 2px" />
+            <p>
+              <a href="#!">search properties</a>
+            </p>
+            <p>
+              <a href="#!">for agents</a>
+            </p>
+            <p>
+              <a href="#!">reviews</a>
+            </p>
+            <p>
+              <a href="#!">FAQs</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #d92228; height: 2px" />
+            <p>
+              <a href="#!">privacy policy</a>
+            </p>
+            <p>
+              <a href="#!">terms</a>
+            </p>
+            <p>
+              <a href="#!">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #d92228; height: 2px" />
+            <p><i class="fas fa-home me-2"></i> New delhi, GY 10012</p>
+            <p><i class="fas fa-envelope me-2"></i> info@homesphere.com</p>
+            <p><i class="fas fa-phone me-2"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-2"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-size: 13px">
+      © 2022 Copyright |
+      <a class="text-white" href="#">homesphere.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- End of .container -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
